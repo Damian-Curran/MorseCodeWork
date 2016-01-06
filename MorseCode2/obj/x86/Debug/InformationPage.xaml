@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="MorseCode.InformationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MorseCode"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <ScrollViewer>
+            <StackPanel>
+                <Button x:ConnectionId='1' Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"                        />
+
+                <TextBlock FontSize="12" Margin="30,30,0,0" TextWrapping="wrap">
+                 Morse code is a method of transmitting text information as a series of on-off tones, lights, or clicks that can be directly understood by a skilled listener or observer 
+                 without special equipment. The International Morse Code encodes the ISO basic Latin alphabet, some extra Latin letters, the Arabic numerals and a small set of punctuation and
+                 procedural signals (prosigns) as standardized sequences of short and long signals called "dots" and "dashes", or "dits" and "dahs", as in amateur radio practice. Because many
+                 non-English natural languages use more than the 26 Roman letters, extensions to the Morse alphabet exist for those languages.
+            
+            <LineBreak/>
+            <LineBreak/>
+            <LineBreak/>
+            
+                Each Morse code symbol represents either a text character (letter or numeral) or a prosign and is represented by a unique sequence of dots and dashes. The duration of a dash is 
+                three times the duration of a dot. Each dot or dash is followed by a short silence, equal to the dot duration. The letters of a word are separated by a space equal to three dots 
+                (one dash), and the words are separated by a space equal to seven dots. The dot duration is the basic unit of time measurement in code transmission. To increase the speed of the 
+                communication, the code was designed so that the length of each character in Morse varies approximately inversely to its frequency of occurrence in English. Thus the most common
+                letter in English, the letter "E", has the shortest code, a single dot.
+            
+            <LineBreak/>
+            <LineBreak/>
+            <LineBreak/>
+            
+                Morse code is used by some amateur radio operators, although knowledge of and proficiency with it is no longer required for licensing in most countries. Pilots and air traffic 
+                controllers usually need only a cursory understanding. Aeronautical navigational aids, such as VORs and NDBs, constantly identify in Morse code. Compared to voice, Morse code is 
+                less sensitive to poor signal conditions, yet still comprehensible to humans without a decoding device. Morse is therefore a useful alternative to synthesized speech for sending 
+                automated data to skilled listeners on voice channels. Many amateur radio repeaters, for example, identify with Morse, even though they are used for voice communications.
+
+                </TextBlock>
+
+                <Image x:ConnectionId='2' x:Name="Image2" HorizontalAlignment="Center" Height="300" Margin="0,0,0,0" VerticalAlignment="Top" Width="200" Source="Assets/morse.jpg"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
+

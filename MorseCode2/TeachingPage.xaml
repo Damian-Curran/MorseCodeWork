@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="MorseCode.TeachingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MorseCode"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0" Tapped="Button_Click_1" Background="Black">
+            <TextBlock Foreground="Red" HorizontalAlignment="Center">Back</TextBlock>
+        </Button>
+
+        <Button HorizontalAlignment="Center" VerticalAlignment="Top" Height="100" Width="230" Tapped="Button_Click_2" Background="Black">
+            <StackPanel>
+                <Image Source="ButtonPics/read.png" Width="250" Height="70"/>
+                <TextBlock Foreground="Red" HorizontalAlignment="Center">Read</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Width="250"  Tapped="Button_Click_3"  Background="Black">
+            <StackPanel>
+                <Image Source="ButtonPics/write.jpg" Width="250" Height="70"/>
+                <TextBlock Foreground="Red" HorizontalAlignment="Center">Write</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="100" Width="250"  Tapped="Button_Click_4"  Background="Black">
+            <StackPanel>
+                <Image Source="ButtonPics/listen.jpg" Width="250" Height="70"/>
+                <TextBlock Foreground="Red" HorizontalAlignment="Center">LIsten</TextBlock>
+            </StackPanel>
+        </Button>
+
+    </Grid>
+</Page>

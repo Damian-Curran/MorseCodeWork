@@ -1,0 +1,396 @@
+WinMetadata\Windows.winmd
+ApplicationInsights.config
+Assets\dash.mp3
+Assets\dot.mp3
+Assets\LockScreenLogo.scale-200.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Logo.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Logo.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Logo.scale-180.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Logo.scale-80.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\SmallLogo.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\SmallLogo.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\SmallLogo.scale-180.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\SmallLogo.scale-80.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\SplashScreen.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\SplashScreen.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\SplashScreen.scale-180.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Square310x310Logo.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Square310x310Logo.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Square310x310Logo.scale-180.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Square310x310Logo.scale-80.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Square70x70Logo.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Square70x70Logo.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Square70x70Logo.scale-180.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Square70x70Logo.scale-80.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\StoreLogo.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\StoreLogo.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\StoreLogo.scale-180.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Wide310x150Logo.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Wide310x150Logo.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Wide310x150Logo.scale-180.png
+Assets\LockScreenLogo.scale-200\Windows 8.1\Wide310x150Logo.scale-80.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Logo.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Logo.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Logo.scale-240.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SmallLogo.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SmallLogo.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SmallLogo.scale-240.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SplashScreen.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SplashScreen.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SplashScreen.scale-240.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-240.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\StoreLogo.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\StoreLogo.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\StoreLogo.scale-240.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\WideLogo.scale-100.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\WideLogo.scale-140.png
+Assets\LockScreenLogo.scale-200\Windows Phone 8.1\WideLogo.scale-240.png
+Assets\morse.jpg
+Assets\SmallLogo.scale-100.png
+Assets\SmallLogo.scale-140.png
+Assets\SmallLogo.scale-240.png
+Assets\SplashScreen.scale-100.png
+Assets\SplashScreen.scale-140.png
+Assets\SplashScreen.scale-200.png
+Assets\SplashScreen.scale-200\Windows 8.1\Logo.scale-100.png
+Assets\SplashScreen.scale-200\Windows 8.1\Logo.scale-140.png
+Assets\SplashScreen.scale-200\Windows 8.1\Logo.scale-180.png
+Assets\SplashScreen.scale-200\Windows 8.1\Logo.scale-80.png
+Assets\SplashScreen.scale-200\Windows 8.1\SmallLogo.scale-100.png
+Assets\SplashScreen.scale-200\Windows 8.1\SmallLogo.scale-140.png
+Assets\SplashScreen.scale-200\Windows 8.1\SmallLogo.scale-180.png
+Assets\SplashScreen.scale-200\Windows 8.1\SmallLogo.scale-80.png
+Assets\SplashScreen.scale-200\Windows 8.1\SplashScreen.scale-100.png
+Assets\SplashScreen.scale-200\Windows 8.1\SplashScreen.scale-140.png
+Assets\SplashScreen.scale-200\Windows 8.1\SplashScreen.scale-180.png
+Assets\SplashScreen.scale-200\Windows 8.1\Square310x310Logo.scale-100.png
+Assets\SplashScreen.scale-200\Windows 8.1\Square310x310Logo.scale-140.png
+Assets\SplashScreen.scale-200\Windows 8.1\Square310x310Logo.scale-180.png
+Assets\SplashScreen.scale-200\Windows 8.1\Square310x310Logo.scale-80.png
+Assets\SplashScreen.scale-200\Windows 8.1\Square70x70Logo.scale-100.png
+Assets\SplashScreen.scale-200\Windows 8.1\Square70x70Logo.scale-140.png
+Assets\SplashScreen.scale-200\Windows 8.1\Square70x70Logo.scale-180.png
+Assets\SplashScreen.scale-200\Windows 8.1\Square70x70Logo.scale-80.png
+Assets\SplashScreen.scale-200\Windows 8.1\StoreLogo.scale-100.png
+Assets\SplashScreen.scale-200\Windows 8.1\StoreLogo.scale-140.png
+Assets\SplashScreen.scale-200\Windows 8.1\StoreLogo.scale-180.png
+Assets\SplashScreen.scale-200\Windows 8.1\Wide310x150Logo.scale-100.png
+Assets\SplashScreen.scale-200\Windows 8.1\Wide310x150Logo.scale-140.png
+Assets\SplashScreen.scale-200\Windows 8.1\Wide310x150Logo.scale-180.png
+Assets\SplashScreen.scale-200\Windows 8.1\Wide310x150Logo.scale-80.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\Logo.scale-100.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\Logo.scale-140.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\Logo.scale-240.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\SmallLogo.scale-100.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\SmallLogo.scale-140.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\SmallLogo.scale-240.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\SplashScreen.scale-100.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\SplashScreen.scale-140.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\SplashScreen.scale-240.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\Square71x71Logo.scale-100.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\Square71x71Logo.scale-140.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\Square71x71Logo.scale-240.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\StoreLogo.scale-100.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\StoreLogo.scale-140.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\StoreLogo.scale-240.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\WideLogo.scale-100.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\WideLogo.scale-140.png
+Assets\SplashScreen.scale-200\Windows Phone 8.1\WideLogo.scale-240.png
+Assets\SplashScreen.scale-240.png
+Assets\Square150x150Logo.scale-200.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Logo.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Logo.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Logo.scale-180.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Logo.scale-80.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\SmallLogo.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\SmallLogo.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\SmallLogo.scale-180.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\SmallLogo.scale-80.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\SplashScreen.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\SplashScreen.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\SplashScreen.scale-180.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-180.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-80.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-180.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-80.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\StoreLogo.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\StoreLogo.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\StoreLogo.scale-180.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-180.png
+Assets\Square150x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-80.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Logo.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Logo.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Logo.scale-240.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-240.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-240.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-240.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-240.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-100.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-140.png
+Assets\Square150x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-240.png
+Assets\Square44x44Logo.scale-200.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Logo.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Logo.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Logo.scale-180.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Logo.scale-80.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\SmallLogo.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\SmallLogo.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\SmallLogo.scale-180.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\SmallLogo.scale-80.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\SplashScreen.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\SplashScreen.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\SplashScreen.scale-180.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Square310x310Logo.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Square310x310Logo.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Square310x310Logo.scale-180.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Square310x310Logo.scale-80.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Square70x70Logo.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Square70x70Logo.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Square70x70Logo.scale-180.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Square70x70Logo.scale-80.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\StoreLogo.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\StoreLogo.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\StoreLogo.scale-180.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-180.png
+Assets\Square44x44Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-80.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Logo.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Logo.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Logo.scale-240.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-240.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-240.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-240.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-240.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\WideLogo.scale-100.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\WideLogo.scale-140.png
+Assets\Square44x44Logo.scale-200\Windows Phone 8.1\WideLogo.scale-240.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Logo.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Logo.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Logo.scale-180.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Logo.scale-80.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SmallLogo.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SmallLogo.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SmallLogo.scale-180.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SmallLogo.scale-80.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SplashScreen.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SplashScreen.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SplashScreen.scale-180.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square310x310Logo.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square310x310Logo.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square310x310Logo.scale-180.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square310x310Logo.scale-80.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square70x70Logo.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square70x70Logo.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square70x70Logo.scale-180.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square70x70Logo.scale-80.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\StoreLogo.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\StoreLogo.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\StoreLogo.scale-180.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Wide310x150Logo.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Wide310x150Logo.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Wide310x150Logo.scale-180.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Wide310x150Logo.scale-80.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Logo.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Logo.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Logo.scale-240.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SmallLogo.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SmallLogo.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SmallLogo.scale-240.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SplashScreen.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SplashScreen.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SplashScreen.scale-240.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Square71x71Logo.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Square71x71Logo.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Square71x71Logo.scale-240.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\StoreLogo.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\StoreLogo.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\StoreLogo.scale-240.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\WideLogo.scale-100.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\WideLogo.scale-140.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\WideLogo.scale-240.png
+Assets\Square71x71Logo.scale-100.png
+Assets\Square71x71Logo.scale-140.png
+Assets\Square71x71Logo.scale-240.png
+Assets\StoreLogo.png
+Assets\StoreLogo.scale-100.png
+Assets\StoreLogo.scale-140.png
+Assets\StoreLogo.scale-240.png
+Assets\StoreLogo\Windows 8.1\Logo.scale-100.png
+Assets\StoreLogo\Windows 8.1\Logo.scale-140.png
+Assets\StoreLogo\Windows 8.1\Logo.scale-180.png
+Assets\StoreLogo\Windows 8.1\Logo.scale-80.png
+Assets\StoreLogo\Windows 8.1\SmallLogo.scale-100.png
+Assets\StoreLogo\Windows 8.1\SmallLogo.scale-140.png
+Assets\StoreLogo\Windows 8.1\SmallLogo.scale-180.png
+Assets\StoreLogo\Windows 8.1\SmallLogo.scale-80.png
+Assets\StoreLogo\Windows 8.1\SplashScreen.scale-100.png
+Assets\StoreLogo\Windows 8.1\SplashScreen.scale-140.png
+Assets\StoreLogo\Windows 8.1\SplashScreen.scale-180.png
+Assets\StoreLogo\Windows 8.1\Square310x310Logo.scale-100.png
+Assets\StoreLogo\Windows 8.1\Square310x310Logo.scale-140.png
+Assets\StoreLogo\Windows 8.1\Square310x310Logo.scale-180.png
+Assets\StoreLogo\Windows 8.1\Square310x310Logo.scale-80.png
+Assets\StoreLogo\Windows 8.1\Square70x70Logo.scale-100.png
+Assets\StoreLogo\Windows 8.1\Square70x70Logo.scale-140.png
+Assets\StoreLogo\Windows 8.1\Square70x70Logo.scale-180.png
+Assets\StoreLogo\Windows 8.1\Square70x70Logo.scale-80.png
+Assets\StoreLogo\Windows 8.1\StoreLogo.scale-100.png
+Assets\StoreLogo\Windows 8.1\StoreLogo.scale-140.png
+Assets\StoreLogo\Windows 8.1\StoreLogo.scale-180.png
+Assets\StoreLogo\Windows 8.1\Wide310x150Logo.scale-100.png
+Assets\StoreLogo\Windows 8.1\Wide310x150Logo.scale-140.png
+Assets\StoreLogo\Windows 8.1\Wide310x150Logo.scale-180.png
+Assets\StoreLogo\Windows 8.1\Wide310x150Logo.scale-80.png
+Assets\StoreLogo\Windows Phone 8.1\Logo.scale-100.png
+Assets\StoreLogo\Windows Phone 8.1\Logo.scale-140.png
+Assets\StoreLogo\Windows Phone 8.1\Logo.scale-240.png
+Assets\StoreLogo\Windows Phone 8.1\SmallLogo.scale-100.png
+Assets\StoreLogo\Windows Phone 8.1\SmallLogo.scale-140.png
+Assets\StoreLogo\Windows Phone 8.1\SmallLogo.scale-240.png
+Assets\StoreLogo\Windows Phone 8.1\SplashScreen.scale-100.png
+Assets\StoreLogo\Windows Phone 8.1\SplashScreen.scale-140.png
+Assets\StoreLogo\Windows Phone 8.1\SplashScreen.scale-240.png
+Assets\StoreLogo\Windows Phone 8.1\Square71x71Logo.scale-100.png
+Assets\StoreLogo\Windows Phone 8.1\Square71x71Logo.scale-140.png
+Assets\StoreLogo\Windows Phone 8.1\Square71x71Logo.scale-240.png
+Assets\StoreLogo\Windows Phone 8.1\StoreLogo.scale-100.png
+Assets\StoreLogo\Windows Phone 8.1\StoreLogo.scale-140.png
+Assets\StoreLogo\Windows Phone 8.1\StoreLogo.scale-240.png
+Assets\StoreLogo\Windows Phone 8.1\WideLogo.scale-100.png
+Assets\StoreLogo\Windows Phone 8.1\WideLogo.scale-140.png
+Assets\StoreLogo\Windows Phone 8.1\WideLogo.scale-240.png
+Assets\Wide310x150Logo.scale-200.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Logo.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Logo.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Logo.scale-180.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Logo.scale-80.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\SmallLogo.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\SmallLogo.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\SmallLogo.scale-180.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\SmallLogo.scale-80.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\SplashScreen.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\SplashScreen.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\SplashScreen.scale-180.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-180.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-80.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-180.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-80.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\StoreLogo.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\StoreLogo.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\StoreLogo.scale-180.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-180.png
+Assets\Wide310x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-80.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Logo.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Logo.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Logo.scale-240.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-240.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-240.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-240.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-240.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-100.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-140.png
+Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-240.png
+Assets\WideLogo.scale-100.png
+Assets\WideLogo.scale-140.png
+Assets\WideLogo.scale-240.png
+MorseCode2.xr.xml
+ButtonPics\cover.png
+ButtonPics\easy.jpg
+ButtonPics\hard.png
+ButtonPics\listen.jpg
+ButtonPics\read.png
+ButtonPics\whatIs.jpg
+ButtonPics\write.jpg
+MorseLetters\a.jpg
+MorseLetters\b.jpg
+MorseLetters\c.jpg
+MorseLetters\d.jpg
+MorseLetters\e.jpg
+MorseLetters\f.jpg
+MorseLetters\g.jpg
+MorseLetters\h.jpg
+MorseLetters\i.jpg
+MorseLetters\j.jpg
+MorseLetters\k.jpg
+MorseLetters\l.jpg
+MorseLetters\m.jpg
+MorseLetters\n.jpg
+MorseLetters\o.jpg
+MorseLetters\p.jpg
+MorseLetters\q.jpg
+MorseLetters\r.jpg
+MorseLetters\s.jpg
+MorseLetters\t.jpg
+MorseLetters\u.jpg
+MorseLetters\v.jpg
+MorseLetters\w.jpg
+MorseLetters\x.jpg
+MorseLetters\y.jpg
+MorseLetters\z.jpg
+MorseMP3\a.mp3
+MorseMP3\b.mp3
+MorseMP3\c.mp3
+MorseMP3\d.mp3
+MorseMP3\e.mp3
+MorseMP3\f.mp3
+MorseMP3\g.mp3
+MorseMP3\h.mp3
+MorseMP3\i.mp3
+MorseMP3\j.mp3
+MorseMP3\k.mp3
+MorseMP3\l.mp3
+MorseMP3\m.mp3
+MorseMP3\n.mp3
+MorseMP3\o.mp3
+MorseMP3\p.mp3
+MorseMP3\q.mp3
+MorseMP3\r.mp3
+MorseMP3\s.mp3
+MorseMP3\t.mp3
+MorseMP3\u.mp3
+MorseMP3\v.mp3
+MorseMP3\w.mp3
+MorseMP3\x.mp3
+MorseMP3\y.mp3
+MorseMP3\z.mp3
+Properties\Default.rd.xml

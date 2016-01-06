@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="MorseCode.LearnRead"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MorseCode"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+
+        <ScrollViewer>
+            <StackPanel>
+                <Button Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0" Tapped="Button_Click_1" Foreground="Blue"/>
+
+                <Image Loaded="Image_Loaded"/>
+
+                <TextBox IsReadOnly="True" Text="Enter the 1 letter answer: " Foreground="Blue"></TextBox>
+                <TextBox x:Name="AnswerBox" Foreground="Blue"></TextBox>
+                <Button Content="Enter!" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Tapped="Button_Click_2" Foreground="Blue"/>
+                <Button Content="Replay" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Tapped="Button_Click_3" Foreground="Blue"/>
+                <TextBox x:Name="Correct" IsReadOnly="True" Visibility="Visible" Foreground="Blue"></TextBox>
+
+                <Image x:Name="Image2" HorizontalAlignment="Center" Height="300" Margin="0,0,0,0" VerticalAlignment="Top" Width="200" Source="Assets/morse.jpg"/>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+
+</Page>

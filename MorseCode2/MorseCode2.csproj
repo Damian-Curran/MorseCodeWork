@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{1FC3AE72-1F8C-441F-98B0-7B7BCE3B2ED5}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MorseCode2</RootNamespace>
+    <AssemblyName>MorseCode2</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>MorseCode2_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InformationPage.xaml.cs">
+      <DependentUpon>InformationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LearningPage.xaml.cs">
+      <DependentUpon>LearningPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LearnListen.xaml.cs">
+      <DependentUpon>LearnListen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LearnRead.xaml.cs">
+      <DependentUpon>LearnRead.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LearnWrite.xaml.cs">
+      <DependentUpon>LearnWrite.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TeachingPage.xaml.cs">
+      <DependentUpon>TeachingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestListen.xaml.cs">
+      <DependentUpon>TestListen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestRead.xaml.cs">
+      <DependentUpon>TestRead.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TestWrite.xaml.cs">
+      <DependentUpon>TestWrite.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="MorseCode2_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\dash.mp3" />
+    <Content Include="Assets\dot.mp3" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Logo.scale-180.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Logo.scale-80.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\SmallLogo.scale-180.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\SmallLogo.scale-80.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\SplashScreen.scale-180.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Square310x310Logo.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Square310x310Logo.scale-180.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Square310x310Logo.scale-80.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Square70x70Logo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Square70x70Logo.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Square70x70Logo.scale-180.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Square70x70Logo.scale-80.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\StoreLogo.scale-180.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Wide310x150Logo.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Wide310x150Logo.scale-180.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows 8.1\Wide310x150Logo.scale-80.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Logo.scale-240.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SmallLogo.scale-240.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\SplashScreen.scale-240.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\StoreLogo.scale-240.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\WideLogo.scale-100.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\WideLogo.scale-140.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200\Windows Phone 8.1\WideLogo.scale-240.png" />
+    <Content Include="Assets\morse.jpg" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-140.png" />
+    <Content Include="Assets\SmallLogo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Logo.scale-180.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Logo.scale-80.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\SmallLogo.scale-180.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\SmallLogo.scale-80.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\SplashScreen.scale-180.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Square310x310Logo.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Square310x310Logo.scale-180.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Square310x310Logo.scale-80.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Square70x70Logo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Square70x70Logo.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Square70x70Logo.scale-180.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Square70x70Logo.scale-80.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\StoreLogo.scale-180.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Wide310x150Logo.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Wide310x150Logo.scale-180.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows 8.1\Wide310x150Logo.scale-80.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\Logo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\SmallLogo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\SplashScreen.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\Square71x71Logo.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\StoreLogo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\WideLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\WideLogo.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-200\Windows Phone 8.1\WideLogo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-240.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Logo.scale-180.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Logo.scale-80.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\SmallLogo.scale-180.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\SmallLogo.scale-80.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\SplashScreen.scale-180.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-180.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-80.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-180.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-80.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\StoreLogo.scale-180.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-180.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-80.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Logo.scale-240.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-240.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-240.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-240.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-140.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Logo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Logo.scale-80.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\SmallLogo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\SmallLogo.scale-80.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\SplashScreen.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Square310x310Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Square310x310Logo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Square310x310Logo.scale-80.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Square70x70Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Square70x70Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Square70x70Logo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Square70x70Logo.scale-80.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\StoreLogo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-80.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Logo.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\WideLogo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\WideLogo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200\Windows Phone 8.1\WideLogo.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Logo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Logo.scale-80.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SmallLogo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SmallLogo.scale-80.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\SplashScreen.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square310x310Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square310x310Logo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square310x310Logo.scale-80.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square70x70Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square70x70Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square70x70Logo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Square70x70Logo.scale-80.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\StoreLogo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Wide310x150Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Wide310x150Logo.scale-180.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows 8.1\Wide310x150Logo.scale-80.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Logo.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SmallLogo.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\SplashScreen.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Square71x71Logo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\StoreLogo.scale-240.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\WideLogo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\WideLogo.scale-140.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated\Windows Phone 8.1\WideLogo.scale-240.png" />
+    <Content Include="Assets\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square71x71Logo.scale-140.png" />
+    <Content Include="Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo.scale-240.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Logo.scale-180.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Logo.scale-80.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\SmallLogo.scale-180.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\SmallLogo.scale-80.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\SplashScreen.scale-180.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Square310x310Logo.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Square310x310Logo.scale-180.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Square310x310Logo.scale-80.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Square70x70Logo.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Square70x70Logo.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Square70x70Logo.scale-180.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Square70x70Logo.scale-80.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\StoreLogo.scale-180.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Wide310x150Logo.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Wide310x150Logo.scale-180.png" />
+    <Content Include="Assets\StoreLogo\Windows 8.1\Wide310x150Logo.scale-80.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\Logo.scale-240.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\SmallLogo.scale-240.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\SplashScreen.scale-240.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\Square71x71Logo.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\StoreLogo.scale-240.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\WideLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\WideLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo\Windows Phone 8.1\WideLogo.scale-240.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Logo.scale-180.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Logo.scale-80.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\SmallLogo.scale-180.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\SmallLogo.scale-80.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\SplashScreen.scale-180.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-180.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Square310x310Logo.scale-80.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-180.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Square70x70Logo.scale-80.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\StoreLogo.scale-180.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-180.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows 8.1\Wide310x150Logo.scale-80.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Logo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Logo.scale-240.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SmallLogo.scale-240.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\SplashScreen.scale-240.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\StoreLogo.scale-240.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200\Windows Phone 8.1\WideLogo.scale-240.png" />
+    <Content Include="Assets\WideLogo.scale-100.png" />
+    <Content Include="Assets\WideLogo.scale-140.png" />
+    <Content Include="Assets\WideLogo.scale-240.png" />
+    <Content Include="ButtonPics\cover.png" />
+    <Content Include="ButtonPics\easy.jpg" />
+    <Content Include="ButtonPics\hard.png" />
+    <Content Include="ButtonPics\listen.jpg" />
+    <Content Include="ButtonPics\read.png" />
+    <Content Include="ButtonPics\whatIs.jpg" />
+    <Content Include="ButtonPics\write.jpg" />
+    <Content Include="MorseLetters\a.jpg" />
+    <Content Include="MorseLetters\b.jpg" />
+    <Content Include="MorseLetters\c.jpg" />
+    <Content Include="MorseLetters\d.jpg" />
+    <Content Include="MorseLetters\e.jpg" />
+    <Content Include="MorseLetters\f.jpg" />
+    <Content Include="MorseLetters\g.jpg" />
+    <Content Include="MorseLetters\h.jpg" />
+    <Content Include="MorseLetters\i.jpg" />
+    <Content Include="MorseLetters\j.jpg" />
+    <Content Include="MorseLetters\k.jpg" />
+    <Content Include="MorseLetters\l.jpg" />
+    <Content Include="MorseLetters\m.jpg" />
+    <Content Include="MorseLetters\n.jpg" />
+    <Content Include="MorseLetters\o.jpg" />
+    <Content Include="MorseLetters\p.jpg" />
+    <Content Include="MorseLetters\q.jpg" />
+    <Content Include="MorseLetters\r.jpg" />
+    <Content Include="MorseLetters\s.jpg" />
+    <Content Include="MorseLetters\t.jpg" />
+    <Content Include="MorseLetters\u.jpg" />
+    <Content Include="MorseLetters\v.jpg" />
+    <Content Include="MorseLetters\w.jpg" />
+    <Content Include="MorseLetters\x.jpg" />
+    <Content Include="MorseLetters\y.jpg" />
+    <Content Include="MorseLetters\z.jpg" />
+    <Content Include="MorseMP3\a.mp3" />
+    <Content Include="MorseMP3\b.mp3" />
+    <Content Include="MorseMP3\c.mp3" />
+    <Content Include="MorseMP3\d.mp3" />
+    <Content Include="MorseMP3\e.mp3" />
+    <Content Include="MorseMP3\f.mp3" />
+    <Content Include="MorseMP3\g.mp3" />
+    <Content Include="MorseMP3\h.mp3" />
+    <Content Include="MorseMP3\i.mp3" />
+    <Content Include="MorseMP3\j.mp3" />
+    <Content Include="MorseMP3\k.mp3" />
+    <Content Include="MorseMP3\l.mp3" />
+    <Content Include="MorseMP3\m.mp3" />
+    <Content Include="MorseMP3\n.mp3" />
+    <Content Include="MorseMP3\o.mp3" />
+    <Content Include="MorseMP3\p.mp3" />
+    <Content Include="MorseMP3\q.mp3" />
+    <Content Include="MorseMP3\r.mp3" />
+    <Content Include="MorseMP3\s.mp3" />
+    <Content Include="MorseMP3\t.mp3" />
+    <Content Include="MorseMP3\u.mp3" />
+    <Content Include="MorseMP3\v.mp3" />
+    <Content Include="MorseMP3\w.mp3" />
+    <Content Include="MorseMP3\x.mp3" />
+    <Content Include="MorseMP3\y.mp3" />
+    <Content Include="MorseMP3\z.mp3" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="InformationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LearningPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LearnListen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LearnRead.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LearnWrite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeachingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestListen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestRead.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestWrite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

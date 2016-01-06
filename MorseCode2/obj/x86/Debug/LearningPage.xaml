@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="MorseCode.LearningPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MorseCode"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+
+        <Button x:ConnectionId='1' Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"                         Foreground="Blue"/>
+
+        <Button x:ConnectionId='2' HorizontalAlignment="Center" VerticalAlignment="Top" Height="100" Width="230"                         Background="Black">
+            <StackPanel>
+                <Image Source="ButtonPics/read.png" Width="250" Height="70"/>
+                <TextBlock Foreground="Blue" HorizontalAlignment="Center">Read</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button x:ConnectionId='3' HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Width="250"                          Background="Black">
+            <StackPanel>
+                <Image Source="ButtonPics/write.jpg" Width="250" Height="70"/>
+                <TextBlock Foreground="Blue" HorizontalAlignment="Center">Write</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button x:ConnectionId='4' HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="100" Width="250"                          Background="Black">
+            <StackPanel>
+                <Image Source="ButtonPics/listen.jpg" Width="250" Height="70"/>
+                <TextBlock Foreground="Blue" HorizontalAlignment="Center">Listen</TextBlock>
+            </StackPanel>
+        </Button>
+
+    </Grid>
+</Page>
+
